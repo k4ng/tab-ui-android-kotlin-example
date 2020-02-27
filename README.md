@@ -19,3 +19,6 @@ Setting base application theme on ```res/values/style.xml```, set attribute pare
 
 ### Screenshot
 <img src="https://github.com/k4ng/tab-ui-android-kotlin-example/blob/master/screenshot/1.png" alt="drawing" width="300"/>
+
+### Author
+[kang-cahya.com](https://www.kang-cahya.com/)
