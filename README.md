@@ -6,6 +6,11 @@ Add this dependecy to ```build.grade (Module:app)```
 ``` gradel
 implementation 'com.google.android.material:material:1.0.0' 
 ```
+### Res Values
+Setting base application theme on ```res/values/style.xml```, set attribute parent style to ```NoActionBar``` like this :
+``` xml
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+```
 
 ### Tab View
 - Tab 1 ( [OneFragment.kt](https://github.com/k4ng/tab-ui-android-kotlin-example/blob/master/app/src/main/java/com/kang/cahya/androidtabui/OneFragment.kt), [fragment_one.xml](https://github.com/k4ng/tab-ui-android-kotlin-example/blob/master/app/src/main/res/layout/fragment_one.xml) )
